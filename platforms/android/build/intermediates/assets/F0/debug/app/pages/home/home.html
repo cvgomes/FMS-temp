@@ -1,0 +1,13 @@
+<GridLayout columns="150, *, auto" rows="auto, auto, auto, auto,70,70,*" >
+    <Image row="0" col="1"  src="~/images/info.png" class="info" (tap)="goToLogin()"></Image>
+    <Image row="0" col="2"  src="~/images/info.png" class="info" (tap)="goToTerms()"></Image>
+    <Label row="2" text="label signalez" class="title" colspan="3" ></Label>
+
+    <Label row="3" text="label statistics" class="message" textWrap="true" colspan="3"></Label>
+
+    <br>
+
+    <Button row="4" text="Photo" (tap)="takePicture()" colspan="3" style="width:200;"></Button>
+
+    <Button row="5" text="Liste incident" (tap)="goToListIncident()" colspan="3"></Button>
+</GridLayout>

@@ -1,0 +1,14 @@
+<Gridlayout columns="*,150,150,*" rows="50,*,70,70,70,*" >
+
+    <label row="1"  text="partie reservée" colspan="4" style="position: center;" ></label>
+
+    <label row="2" col="1" text="identifiant"></label>
+    <TextField row="2" col="2" hint="User name" keyboardType="email" [(ngModel)]="name"
+               autocorrect="false" autocapitalizationType="none"></TextField>
+
+    <label row="3" col="1" text="identifiant"></label>
+    <TextField row="3" col="2" hint="Password" secure="true" [(ngModel)]="password"></TextField>
+
+    <Button row="4" text="login" (tap)="login()" colspan="4" style="position: center; " ></Button>
+
+</Gridlayout>

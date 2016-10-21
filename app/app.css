@@ -1,0 +1,35 @@
+﻿Page{
+    background-image: ~/images/background_smart_brussels_citybig.png;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+ActionBar{
+    background-image: ~/images/logo_fixmystreet.png;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+button, label, stack-layout {
+    horizontal-align: center;    
+}
+
+button {
+    font-size: 16;
+}
+
+.title {
+    font-size: 30;
+    margin: 20;
+}
+
+.list-section {
+    font-size: 10;
+}
+
+.message {
+    font-size: 20;
+    color: #284848;
+    text-align: center;
+    margin: 0 20;
+} 

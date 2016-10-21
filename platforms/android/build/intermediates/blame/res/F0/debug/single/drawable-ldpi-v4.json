@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/build/intermediates/res/merged/F0/debug/drawable-ldpi-v4/icon.png",
+        "source": "/home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/src/main/res/drawable-ldpi/icon.png"
+    },
+    {
+        "merged": "/home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/build/intermediates/res/merged/F0/debug/drawable-ldpi-v4/background.png",
+        "source": "/home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/src/main/res/drawable-ldpi/background.png"
+    },
+    {
+        "merged": "/home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/build/intermediates/res/merged/F0/debug/drawable-ldpi-v4/background_smart_brussels_citybig.png",
+        "source": "/home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/src/main/res/drawable-ldpi/background_smart_brussels_citybig.png"
+    },
+    {
+        "merged": "/home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/build/intermediates/res/merged/F0/debug/drawable-ldpi-v4/logo.png",
+        "source": "/home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/src/main/res/drawable-ldpi/logo.png"
+    }
+]
