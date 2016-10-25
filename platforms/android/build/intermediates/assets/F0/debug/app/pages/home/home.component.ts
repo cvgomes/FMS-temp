@@ -1,9 +1,7 @@
 import { Component, OnInit } from "@angular/core";
 import { Router } from "@angular/router";
-import {NavigationService} from "../../services/navigation.service";
-import cameraModule = require("camera");
-import imageModule = require("ui/image");
 import { Page } from "ui/page";
+import {ImageService} from "../../services/image.service";
 
 @Component({
     selector: "my-app",
@@ -15,22 +13,17 @@ export class HomeComponent implements OnInit{
 
     constructor(
         private router: Router,
-        private navigationService: NavigationService,
+        private imageService : ImageService,
         private page : Page
     ){}
 
     ngOnInit(): void {
         this.page.actionBarHidden = true;
-        this.page.backgroundImage = "res://background_smart_brussels_citybig";
+        this.page.backgroundImage = "res://background_home";
     }
 
-    public takePicture(args) {
-        cameraModule.takePicture().then(picture => {
-            console.log("Result is an image source instance");
-            var image = new imageModule.Image();
-            image.imageSource = picture;
-        });
-        this.navigationService.goToIncident();
+    public showDialog() {
+        this.imageService.showImageDialog();
     }
     public goToListIncident() {
         this.router.navigate(["/listIncident"]);

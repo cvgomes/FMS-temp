@@ -2,7 +2,7 @@
 manifest
 ADDED from /home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/src/main/AndroidManifest.xml:2:1-45:12
 	package
-		ADDED from /home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/src/main/AndroidManifest.xml:3:2-23
+		ADDED from /home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/src/main/AndroidManifest.xml:3:2-40
 		INJECTED from /home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/src/main/AndroidManifest.xml
 		INJECTED from /home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/src/main/AndroidManifest.xml
 	android:versionName
@@ -26,7 +26,7 @@ ADDED from /home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platf
 	android:xlargeScreens
 		ADDED from /home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/src/main/AndroidManifest.xml:11:3-31
 uses-sdk
-ADDED from /home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/src/main/AndroidManifest.xml:13:2-15:44
+ADDED from /home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/src/main/AndroidManifest.xml:13:2-15:34
 MERGED from [com.android.support:support-v4:24.2.1] /home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-compat:24.2.1] /home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-media-compat:24.2.1] /home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/AndroidManifest.xml:21:5-23:63
@@ -70,7 +70,7 @@ MERGED from [:widgets-release:] /home/geoffrey/Documents/Projects-Code/FixMyXPag
 	tools:overrideLibrary
 		ADDED from [com.android.support:support-v4:24.2.1] /home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
-		ADDED from /home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/src/main/AndroidManifest.xml:15:3-42
+		ADDED from /home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/src/main/AndroidManifest.xml:15:3-32
 		INJECTED from /home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/src/main/AndroidManifest.xml
 		INJECTED from /home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/src/main/AndroidManifest.xml
 	android:minSdkVersion

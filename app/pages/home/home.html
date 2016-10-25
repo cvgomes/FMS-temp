@@ -1,11 +1,11 @@
-<GridLayout columns="150, *, auto" rows="auto, auto, auto, auto,70,70,*" >
-    <Image row="0" col="1"  src="~/images/info.png" class="info" (tap)="goToLogin()"></Image>
-    <Image row="0" col="2"  src="~/images/info.png" class="info" (tap)="goToTerms()"></Image>
+<GridLayout columns="150, *, auto" rows="50, 100, auto, auto,70,70,*" >
+    <Image row="0" col="1"  src="res://ico_infos" class="info" (tap)="goToLogin()"></Image>
+    <Image row="0" col="2"  src="res://ico_pro" class="info" (tap)="goToTerms()"></Image>
     <Label row="2" text="label signalez" class="title" colspan="3" ></Label>
 
     <Label row="3" text="label statistics" class="message" textWrap="true" colspan="3"></Label>
 
-    <Button row="4" text="Photo" (tap)="takePicture()" colspan="3" style="width:200;"></Button>
+    <Button row="4" text="Photo" (tap)="showDialog()" colspan="3" style="width:200;"></Button>
 
     <Button row="5" text="Liste incident" (tap)="goToListIncident()" colspan="3"></Button>
 </GridLayout>

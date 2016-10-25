@@ -1,18 +1,70 @@
 [
     {
+        "merged": "/home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/build/intermediates/res/merged/F0/debug/drawable-ldpi-v4/ico_pictures.png",
+        "source": "/home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/src/main/res/drawable-ldpi/ico_pictures.png"
+    },
+    {
         "merged": "/home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/build/intermediates/res/merged/F0/debug/drawable-ldpi-v4/icon.png",
         "source": "/home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/src/main/res/drawable-ldpi/icon.png"
+    },
+    {
+        "merged": "/home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/build/intermediates/res/merged/F0/debug/drawable-ldpi-v4/ico_adress.png",
+        "source": "/home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/src/main/res/drawable-ldpi/ico_adress.png"
+    },
+    {
+        "merged": "/home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/build/intermediates/res/merged/F0/debug/drawable-ldpi-v4/ico_infos.png",
+        "source": "/home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/src/main/res/drawable-ldpi/ico_infos.png"
+    },
+    {
+        "merged": "/home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/build/intermediates/res/merged/F0/debug/drawable-ldpi-v4/ico_arrow_next.png",
+        "source": "/home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/src/main/res/drawable-ldpi/ico_arrow_next.png"
+    },
+    {
+        "merged": "/home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/build/intermediates/res/merged/F0/debug/drawable-ldpi-v4/ico_pro.png",
+        "source": "/home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/src/main/res/drawable-ldpi/ico_pro.png"
     },
     {
         "merged": "/home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/build/intermediates/res/merged/F0/debug/drawable-ldpi-v4/background.png",
         "source": "/home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/src/main/res/drawable-ldpi/background.png"
     },
     {
+        "merged": "/home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/build/intermediates/res/merged/F0/debug/drawable-ldpi-v4/ico_arrow.png",
+        "source": "/home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/src/main/res/drawable-ldpi/ico_arrow.png"
+    },
+    {
+        "merged": "/home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/build/intermediates/res/merged/F0/debug/drawable-ldpi-v4/ico_commentaire.png",
+        "source": "/home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/src/main/res/drawable-ldpi/ico_commentaire.png"
+    },
+    {
+        "merged": "/home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/build/intermediates/res/merged/F0/debug/drawable-ldpi-v4/ico_profil.png",
+        "source": "/home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/src/main/res/drawable-ldpi/ico_profil.png"
+    },
+    {
+        "merged": "/home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/build/intermediates/res/merged/F0/debug/drawable-ldpi-v4/ico_delete.png",
+        "source": "/home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/src/main/res/drawable-ldpi/ico_delete.png"
+    },
+    {
+        "merged": "/home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/build/intermediates/res/merged/F0/debug/drawable-ldpi-v4/background_home.png",
+        "source": "/home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/src/main/res/drawable-ldpi/background_home.png"
+    },
+    {
         "merged": "/home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/build/intermediates/res/merged/F0/debug/drawable-ldpi-v4/background_smart_brussels_citybig.png",
         "source": "/home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/src/main/res/drawable-ldpi/background_smart_brussels_citybig.png"
     },
     {
+        "merged": "/home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/build/intermediates/res/merged/F0/debug/drawable-ldpi-v4/ico_arrow_back.png",
+        "source": "/home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/src/main/res/drawable-ldpi/ico_arrow_back.png"
+    },
+    {
         "merged": "/home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/build/intermediates/res/merged/F0/debug/drawable-ldpi-v4/logo.png",
         "source": "/home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/src/main/res/drawable-ldpi/logo.png"
+    },
+    {
+        "merged": "/home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/build/intermediates/res/merged/F0/debug/drawable-ldpi-v4/ico_localisation.png",
+        "source": "/home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/src/main/res/drawable-ldpi/ico_localisation.png"
+    },
+    {
+        "merged": "/home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/build/intermediates/res/merged/F0/debug/drawable-ldpi-v4/ico_type.png",
+        "source": "/home/geoffrey/Documents/Projects-Code/FixMyXPages/pages-layout/platforms/android/src/main/res/drawable-ldpi/ico_type.png"
     }
 ]

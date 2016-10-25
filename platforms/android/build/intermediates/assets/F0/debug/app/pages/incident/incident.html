@@ -1,5 +1,31 @@
-<StackLayout>
-    <Button text="back" (tap)="goBack()" ></Button>
+<ActionBar title="Incident page">
+    <NavigationButton (tap)="goBack()" ></NavigationButton>
+</ActionBar>
 
-    <label text="salut"> </label>
-</StackLayout>
+<ScrollView>
+    <GridLayout columns="40,20,200,*" rows="30, 30, 50, 30, 50, 30, 50, 30, 50, 30, 50, 30, 50, *" >
+
+        <Image row="1" col="1" src="res://ico_pictures" class="image-icon" (tap)="goToLogin()"></Image>
+        <label row="1" col="2" text="photo" class="incident-field"> </label>
+        <Button row="2" col="1" text="+" (tap)="incidentDialog()" colspan="3" style="width:30; alignment: left;"></Button>
+
+        <Image row="3" col="1" src="res://ico_pictures" class="image-icon" (tap)="goToLogin()"></Image>
+        <label row="3" col="2" text="localisation" class="incident-field"> </label>
+        <Button row="4" col="1" text="Localisation" (tap)="goToCategories()" colspan="3" style="width:250;"></Button>
+
+        <Image row="5" col="1" src="res://ico_pictures" class="image-icon" (tap)="goToLogin()"></Image>
+        <label row="5" col="2" text="photo" class="incident-field"> </label>
+        <Button row="6" col="1" text="Type Incident" (tap)="goToCategories()" colspan="3" style="width:250;"></Button>
+
+
+        <Image row="7" col="1" src="res://ico_pictures" class="image-icon" (tap)="goToLogin()"></Image>
+        <label row="7" col="2" text="photo" class="incident-field"> </label>
+        <TextField row="8" col="1" colspan="2" hint="comment" keyboardType="email"
+                   autocorrect="false" autocapitalizationType="none"></TextField>
+
+        <Image row="9" col="1" src="res://ico_pictures" class="image-icon" (tap)="goToLogin()"></Image>
+        <label row="9" col="2" text="photo" class="incident-field"> </label>
+
+    </GridLayout>
+</ScrollView>
+

@@ -1,19 +1,19 @@
 ﻿Page{
-    background-image: ~/images/background_smart_brussels_citybig.png;
     background-repeat: no-repeat;
     background-position: bottom;
-    background-size: contain;
+    background-size: cover;
 }
 ActionBar{
-    background-image: ~/images/logo_fixmystreet.png;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
 }
 button, label, stack-layout {
     horizontal-align: center;    
 }
-
+.image-icon{
+    color: #2082b5;
+}
 button {
     font-size: 16;
 }

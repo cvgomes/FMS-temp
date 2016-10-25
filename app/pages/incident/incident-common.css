@@ -1,4 +1,6 @@
 .incident-field{
-    margin-right : 50;
+    text-align: left;
+    margin-left: 10;
     font-size : 16;
+    color: #2082b5;
 }

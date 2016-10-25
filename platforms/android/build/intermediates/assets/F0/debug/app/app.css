@@ -1,7 +1,19 @@
-﻿button, label, stack-layout {
+﻿Page{
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+ActionBar{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+button, label, stack-layout {
     horizontal-align: center;    
 }
-
+.image-icon{
+    color: #2082b5;
+}
 button {
     font-size: 16;
 }

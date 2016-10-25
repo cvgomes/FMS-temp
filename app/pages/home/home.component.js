@@ -1,26 +1,20 @@
 "use strict";
 var core_1 = require("@angular/core");
 var router_1 = require("@angular/router");
-var navigation_service_1 = require("../../services/navigation.service");
-var cameraModule = require("camera");
-var imageModule = require("ui/image");
 var page_1 = require("ui/page");
+var image_service_1 = require("../../services/image.service");
 var HomeComponent = (function () {
-    function HomeComponent(router, navigationService, page) {
+    function HomeComponent(router, imageService, page) {
         this.router = router;
-        this.navigationService = navigationService;
+        this.imageService = imageService;
         this.page = page;
     }
     HomeComponent.prototype.ngOnInit = function () {
         this.page.actionBarHidden = true;
+        this.page.backgroundImage = "res://background_home";
     };
-    HomeComponent.prototype.takePicture = function (args) {
-        cameraModule.takePicture().then(function (picture) {
-            console.log("Result is an image source instance");
-            var image = new imageModule.Image();
-            image.imageSource = picture;
-        });
-        this.navigationService.goToIncident();
+    HomeComponent.prototype.showDialog = function () {
+        this.imageService.showImageDialog();
     };
     HomeComponent.prototype.goToListIncident = function () {
         this.router.navigate(["/listIncident"]);
@@ -37,7 +31,7 @@ var HomeComponent = (function () {
             templateUrl: "pages/home/home.html",
             styleUrls: ["pages/home/home.css"]
         }), 
-        __metadata('design:paramtypes', [router_1.Router, navigation_service_1.NavigationService, page_1.Page])
+        __metadata('design:paramtypes', [router_1.Router, image_service_1.ImageService, page_1.Page])
     ], HomeComponent);
     return HomeComponent;
 }());

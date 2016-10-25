@@ -1775,11 +1775,23 @@ containing a value of this type.
         public static final int abc_textfield_search_material=0x7f020051;
         public static final int abc_vector_test=0x7f020052;
         public static final int background=0x7f020053;
-        public static final int background_smart_brussels_citybig=0x7f020054;
-        public static final int icon=0x7f020055;
-        public static final int logo=0x7f020056;
-        public static final int notification_template_icon_bg=0x7f020058;
-        public static final int splash_screen=0x7f020057;
+        public static final int background_home=0x7f020054;
+        public static final int ico_adress=0x7f020055;
+        public static final int ico_arrow=0x7f020056;
+        public static final int ico_arrow_back=0x7f020057;
+        public static final int ico_arrow_next=0x7f020058;
+        public static final int ico_commentaire=0x7f020059;
+        public static final int ico_delete=0x7f02005a;
+        public static final int ico_infos=0x7f02005b;
+        public static final int ico_localisation=0x7f02005c;
+        public static final int ico_pictures=0x7f02005d;
+        public static final int ico_pro=0x7f02005e;
+        public static final int ico_profil=0x7f02005f;
+        public static final int ico_type=0x7f020060;
+        public static final int icon=0x7f020061;
+        public static final int logo=0x7f020062;
+        public static final int notification_template_icon_bg=0x7f020064;
+        public static final int splash_screen=0x7f020063;
     }
     public static final class id {
         public static final int action0=0x7f0a0054;

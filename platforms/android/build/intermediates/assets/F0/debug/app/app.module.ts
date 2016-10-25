@@ -6,6 +6,7 @@ import {NativeScriptHttpModule} from "nativescript-angular/http";
 import {NativeScriptRouterModule} from "nativescript-angular/router";
 import {routes, navigatableComponents} from "./app.routing";
 import {NavigationService} from "./services/navigation.service";
+import {ImageService} from "./services/image.service";
 
 @NgModule({
     imports: [
@@ -16,7 +17,8 @@ import {NavigationService} from "./services/navigation.service";
         NativeScriptRouterModule.forRoot(routes)
     ],
     providers:[
-        NavigationService
+        NavigationService,
+        ImageService
     ],
     declarations: [
         AppComponent,

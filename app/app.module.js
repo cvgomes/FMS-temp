@@ -7,6 +7,7 @@ var http_1 = require("nativescript-angular/http");
 var router_1 = require("nativescript-angular/router");
 var app_routing_1 = require("./app.routing");
 var navigation_service_1 = require("./services/navigation.service");
+var image_service_1 = require("./services/image.service");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -20,7 +21,8 @@ var AppModule = (function () {
                 router_1.NativeScriptRouterModule.forRoot(app_routing_1.routes)
             ],
             providers: [
-                navigation_service_1.NavigationService
+                navigation_service_1.NavigationService,
+                image_service_1.ImageService
             ],
             declarations: [
                 app_component_1.AppComponent
